@@ -1,0 +1,209 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'Glacial Indifference';
+  src: url("glas.otf");
+}
+
+@font-face {
+  font-family: 'Amiri';
+  src: url("Amiri.ttf");
+}
+
+.App-logo {
+  -webkit-animation: App-logo-spin infinite 20s linear;
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.Head {
+  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/850d5888-f262-47d0-bb7b-34d03cd8d3ee/dbk7ro6-e704fd42-1159-4a30-9231-324475986be8.jpg/v1/fill/w_1192,h_670,q_70,strp/retrowave_neon_80_s_background___4k_by_rafael_de_jongh_dbk7ro6-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MjE2MCIsInBhdGgiOiJcL2ZcLzg1MGQ1ODg4LWYyNjItNDdkMC1iYjdiLTM0ZDAzY2Q4ZDNlZVwvZGJrN3JvNi1lNzA0ZmQ0Mi0xMTU5LTRhMzAtOTIzMS0zMjQ0NzU5ODZiZTguanBnIiwid2lkdGgiOiI8PTM4NDAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.27ouRO7W4QJWtlxyaNZ1ZgVyAQNf36o9y_BU-uS30zk);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 960px;
+  color: white;
+}
+
+#azzz {
+  color: #808291;
+  font-family: Amiri;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  /* Text style for "M, y job i" */
+  letter-spacing: 0.5px;
+}
+
+#but {
+  width: 200px;
+  height: 50px;
+  border-radius: 25px;
+  border: 1px solid #d3a985;
+  background-color: #d3a985;
+  color: white;
+}
+
+#titre {
+  color: #ffffff;
+  font-family: "Glacial Indifference";
+  font-size: 150px;
+  font-weight: 700;
+  line-height: 120px;
+}
+
+.esp {
+  min-height: 200px;
+}
+
+.espp {
+  min-height: 100px;
+}
+
+.esppp {
+  min-height: 30px;
+}
+
+#tiree {
+  color: #181b31;
+  font-family: "Glacial Indifference";
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+#gold {
+  font-family: "Glacial Indifference";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #d3a985;
+  letter-spacing: 1.4px;
+}
+
+#text {
+  color: #181b31;
+  font-family: "Glacial Indifference";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  /* Text style for "F, eatured" */
+  letter-spacing: 0.4px;
+}
+
+#end {
+  height: 700px;
+  background-color: #f0f1f4;
+}
+
+#az {
+  opacity: 0.5;
+  color: #181b31;
+  font-family: Amiri;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  /* Text style for "L, et’s co" */
+  letter-spacing: 0.5px;
+}
+
+#tireee {
+  color: #181b31;
+  font-family: "Glacial Indifference";
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+#butend {
+  width: 200px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: white;
+  border: 1px solid #d3a985;
+  color: #d3a985;
+}
+
+#footer {
+  height: 50px;
+}
+
+.back {
+  margin-left: 500px;
+}
+
+.rowaward {
+  margin-top: 50px;
+}
+
+.rowawards {
+  margin-top: 30px;
+}
+
+.bar {
+  width: 670px;
+  height: 15px;
+  border-radius: 8px;
+  background-color: #eef0f3;
+}
+
+.value {
+  width: 603px;
+  height: 15px;
+  border-radius: 8px;
+  background-color: #d3a985;
+}
+
+.values {
+  width: 469px;
+  height: 15px;
+  background-color: #d3a985;
+  border-radius: 8px;
+}
+
+.valuess {
+  width: 570px;
+  height: 15px;
+  border-radius: 8px;
+  background-color: #d3a985;
+}
+
+.pour {
+  position: absolute;
+  margin-left: 550px;
+  color: #181b31;
+  font-family: "Glacial Indifference";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  /* Text style for "8, 5%" */
+  letter-spacing: 0.4px;
+  margin-top: -25px;
+}
+
+.diss {
+  position: absolute;
+  margin-left: 450px;
+  color: #181b31;
+  font-family: "Glacial Indifference";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  /* Text style for "8, 5%" */
+  letter-spacing: 0.4px;
+  margin-top: -25px;
+}
+
+.dis {
+  position: absolute;
+  margin-left: 590px;
+  color: #181b31;
+  font-family: "Glacial Indifference";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  /* Text style for "8, 5%" */
+  letter-spacing: 0.4px;
+  margin-top: -25px;
+}
+/*# sourceMappingURL=App.css.map */
